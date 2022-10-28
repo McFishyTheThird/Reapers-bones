@@ -1,0 +1,43 @@
+header{
+    background-color: black;
+    color: red;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+body{
+    background: radial-gradient(circle farthest-corner at 0 0, red, black);
+    min-height: calc(100vh - 16px);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.Menu{
+    background-color: black;
+    color: rgb(255, 97, 97);
+    place-items: center;
+     
+}
+.MenuLine{
+    background-color: black;
+    color: rgb(255, 97, 97);
+    outline-style: double;
+    outline-color: rgb(70, 0, 0);
+}
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: start middle;
+    outline-style: double;
+    outline-color: rgb(70, 0, 0);
+}
+.about{
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 30px;
+    outline-style: double;
+    outline-color: rgb(70, 0, 0);
+}

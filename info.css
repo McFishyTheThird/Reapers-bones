@@ -1,0 +1,116 @@
+header{
+    background-color: black;
+    color: red;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background: radial-gradient(circle farthest-corner at 0 0, red, black);
+    min-height: calc(100vh - 16px);
+}
+main{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.Yellow{
+    color: yellow;
+    outline-style: double;
+    outline-color: rgba(70, 0, 0);
+}
+.Text{
+    display: grid;
+    grid-template-rows: 1fr;
+    background-color: black;
+    color: rgb(255, 97, 97);
+    outline-style: double;
+    outline-color: rgba(70, 0, 0);
+}
+.PreText{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: black;
+    color: rgb(255, 97, 97);
+    outline-style: double;
+    outline-color: rgba(70, 0, 0);
+    place-items: start;
+}
+.Menu{
+    background-color: black;
+    color: rgb(255, 97, 97);
+    outline-style: double;
+    outline-color: rgba(70, 0, 0);
+}
+.menu{
+    color: red;
+}
+.Shop{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    min-height: 95vh;
+    place-items:center;
+}
+.BBG{
+    background-color: black;
+}
+.Items{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(0, 0, 0);
+    outline: 2px;
+    outline-style: double;
+    outline-color: rgb(70, 0, 0);
+    color: rgb(255, 0, 0);
+    text-align:justify;
+    line-height: 25px;
+}
+.Price{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(0, 0, 0);
+    outline: 2px;
+    outline-style:double;
+    outline-color: rgb(255, 255, 0);
+    color: yellow;
+}
+.SideBySide{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.Picture{
+    background: radial-gradient(circle farthest-corner at 0 0, rgb(50, 0, 0), black);
+    outline: 5px;
+    outline-style:double;
+    outline-color: rgb(70, 0, 0);
+}
+.Rank{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(0, 0, 0);
+    outline: 2px;
+    outline-style: double;
+    outline-color: rgb(70, 0, 0);
+    color: rgb(255, 0, 0);
+    text-align:justify;
+    line-height: 25px;
+    place-items: end left;
+}
+.Rewards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+}
+.RewardsPlaces1{
+    background: black;
+    font-size: 12px;
+    outline: 5px;
+    outline-style:double;
+    outline-color: rgb(70, 0, 0);
+    color: rgb(166, 0, 0)
+}
+.RewardsPlaces{
+    background: black;
+    outline: 5px;
+    outline-style:double;
+    outline-color: rgb(70, 0, 0);
+    color: rgb(255, 255, 0);
+}
+.Flame{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
